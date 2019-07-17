@@ -1,0 +1,44 @@
+.content__producers-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 130px 85px 130px;
+}
+.content__producers-card {
+  width: 220px;
+  height: 145px;
+  border: 1px solid #eaeaea;
+  margin-top: 20px;
+}
+.content__producers-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.content__producers-bosch {
+  background-image: url(../img/bosch_icon.jpg);
+}
+.content__producers-makita {
+  background-image: url(../img/makita_icon.jpg);
+}
+.content__producers-dewalt {
+  background-image: url(../img/dewalt_icon.jpg);
+}
+.content__producers-interskol {
+  background-image: url(../img/interskol_icon.jpg);
+}
+.content__producers-hitachi {
+  background-image: url(../img/hitachi_icon.jpg);
+}
+.content__producers-lg {
+  background-image: url(../img/lg_icon.jpg);
+}
+.content__producers-aeg {
+  background-image: url(../img/aeg_icon.jpg);
+}
+.content__producers-metabo {
+  background-image: url(../img/metabo_icon.jpg);
+}

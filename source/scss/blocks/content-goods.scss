@@ -1,0 +1,34 @@
+.content__devider {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f5f0;
+  margin: 0 130px;
+}
+.content__goods-title {
+  font-size: 30px;
+  color: #32425c;
+  text-transform: uppercase;
+  padding: 30px 30px;
+}
+.content__goods-button {
+  width: 253px;
+  height: 38px;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #ee3643;
+  border-radius: 3px;
+  margin-right: 25px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+.content__goods-button:hover,
+.content__goods-button:focus {
+  background-color: #ca2c37;
+}
+.content__goods-button:active {
+  background-color: #ba2732;
+}

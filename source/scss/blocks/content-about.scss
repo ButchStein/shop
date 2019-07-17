@@ -1,0 +1,75 @@
+.content__about-wrap {
+  margin: 0 130px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.content__about-company {
+  width: 57.4468%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  margin: 44px 0 50px;
+}
+.content__about-title {
+  font-size: 30px;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 38px 0 18px;
+}
+.content__about-text {
+  font-family: "Myriad Pro Regular", sans-serif;
+  font-size: 13px;
+  color: #000000;
+  padding: 18px 0 18px;
+  text-align: left;
+  line-height: 1.5em;
+}
+.content__partners {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}
+.content__partners-name {
+  font-family: "Myriad Pro Regular", sans-serif;
+  font-size: 18px;
+  color: #000000;
+  background-image: url(../img/h_line.png);
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  padding: 10px 0 10px 40px;
+}
+.content__about-button {
+  width: 40.742%;
+  height: 38px;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #ee3643;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 28px 0;
+  transition: background-color 0.5s ease;
+}
+.content__about-button:hover,
+.content__about-button:focus {
+  background-color: #ca2c37;
+}
+.content__about-button:active {
+  background-color: #ba2732;
+}
+.content__about-contacts {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.content__about-button_mod {
+  width: 100%;
+  margin-top: 18px;
+}
+.content__about-map {
+  margin: 20px 0;
+}

@@ -1,0 +1,54 @@
+.content__goods-list {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin: 0 130px;
+}
+.content__goods-card {
+  font-family: "PT Sans", sans-serif;
+  width: 23.4044%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #eaeaea;
+  margin: 20px 0;
+}
+.content__goods-new {
+ position: relative;
+}
+.content__goods-image_mod{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.content__goods-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+  padding: 10px 30px;
+  text-align: center;
+}
+.content__goods-name_mod {
+  padding-bottom: 30px;
+}
+.content__goods-oldprice {
+  font-size: 17px;
+  font-weight: bold;
+  color: #a9a9a9;
+  text-align: center;
+  text-decoration: line-through;
+}
+.content__goods-newprice {
+  width: 141px;
+  height: 38px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  background-image: url(../img/btn_price.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  margin: 10px 0 20px;
+  line-height: 2.25em;
+}

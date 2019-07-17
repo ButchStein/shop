@@ -1,0 +1,112 @@
+.content__categories {
+  margin: 60px 130px 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.content__categories-wrapper {
+  width: 31.9114%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+.content__categories-item {
+  width: 31.9114%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.item-material {
+  background-color: #ffbf47;
+  background-image: url(../img/new_icon.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.item-tool {
+  background-color: #3bbce3;
+}
+.item-technic {
+  background-color: #dc91d8;
+}
+.item-discount {
+  width: 100%;
+  background-color: #8ed78f;
+}
+.item-delivery {
+  width: 100%;
+  background-color: #ffc047;
+}
+.content__categories-wrap {
+  width: 45%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.content__categories-title {
+  font-size: 24px;
+  color: #ffffff;
+  padding: 25px 0 15px;
+}
+.content__categories-link {
+  font-size: 14px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 12.5px 23px;
+  border-radius: 3px;
+  transition: background-color 0.5s ease;
+}
+.content__categories-link:hover,.content__categories-link:focus  {
+  background-color: #cccccc;
+}
+.content__categories-link:active  {
+  background-color: #b2b2b2;
+}
+.link-paint {
+  background-color: #e5ac40;
+}
+.link-tool {
+  background-color: #35a9cc;
+}
+.link-technic {
+  background-color: #c682c2;
+}
+.link-discount {
+  background-color: #80c180;
+  padding: 12.5px 10px;
+}
+.link-delivery {
+  background-color: #e5ac40;
+}
+.content__categories-image {
+  width: 32%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.image-paint {
+  background-image: url(../img/can_icon.png);
+}
+.image-tool {
+  background-image: url(../img/drill_icon.png);
+}
+.image-technic {
+  background-image: url(../img/tracktor_icon.png);
+}
+.item-slider {
+  width: 65.88%;
+  height: 266px;
+  background-image: url(../img/slide_1.jpg);
+}
+.image-discount {
+  height: 72px;
+  background-image: url(../img/cart_categ_icon.png);
+}
+
+.image-delivery {
+  height: 63px;
+  background-image: url(../img/auto_icon.png);
+}

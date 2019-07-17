@@ -1,0 +1,105 @@
+.header__top {
+  width: 100%;
+  background-color: #293449;
+}
+.header__top-nav {
+  height: 42px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 0 130px;
+}
+.header__top-item {
+  height: 100%;
+  display: block;
+  font-size: 17px;
+  color: #ffffff;
+  line-height: 2.5em;
+}
+
+.header__top-logo {
+  width: 23.405%;
+  height: 47px;
+  background-image: url(../img/logo_header.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: background-image 0.5s ease-out;
+}
+.header__top-search {
+  width: 28.7234%;
+}
+.header__input-search {
+  width: 100%;
+  background-image: url(../img/search_icon.png);
+  background-repeat: no-repeat;
+  background-position: 16px center;
+  padding-left: 46px;
+  cursor: pointer;
+  transition: background-image, background-color, color 0.5s ease;
+}
+.header__top-bookmarks {
+  width: 15.958%;
+  background-image: url(../img/bookmark_icon.png);
+  background-repeat: no-repeat;
+  background-position: 16px center;
+  padding-left: 46px;
+  transition: background-image, background-color, color 0.5s ease;
+}
+.header__top-cart {
+  width: 15.958%;
+  background-image: url(../img/cart_icon.png);
+  background-repeat: no-repeat;
+  background-position: 16px center;
+  padding-left: 46px;
+  transition: background-image, background-color, color 0.5s ease;
+}
+.header__top-order {
+  width: 15.958%;
+  text-align: center;
+  background-color: #63a63e;
+  transition: background-color, color 0.5s ease-out;
+}
+.header__top-logo:hover,
+.header__top-logo:focus {
+  background-image: url(../img/logo_hov_header.png);
+}
+.header__top-logo:active {
+  background-image: url(../img/logo_active_header.png);
+}
+.header__input-search:hover {
+  background-image: url(../img/search_hov_icon.png);
+  background-color: #212a3a;
+}
+.header__input-search:focus {
+  background-image: url(../img/search_active_icon.png);
+  background-color: #ffffff;
+  color: #000000;
+}
+.header__top-bookmarks:hover,
+.header__top-bookmarks:focus {
+  background-image: url(../img/bookmark_hov_icon.png);
+  background-color: #212a3a;
+}
+.header__top-bookmarks:active {
+  background-image: url(../img/bookmark_active_icon.png);
+  background-color: #161d29;
+  color: #b3b4b6;
+}
+.header__top-cart:hover,
+.header__top-cart:focus {
+  background-image: url(../img/cart_hov_icon.png);
+  background-color: #212a3a;
+}
+.header__top-cart:active {
+  background-image: url(../img/cart_active_icon.png);
+  background-color: #161d29;
+  color: #b3b4b6;
+}
+.header__top-order:hover,
+.header__top-order:focus {
+  background-color: #5fbb2d;
+}
+.header__top-order:active {
+  background-color: #518534;
+  color: #b3b4b6;
+}
